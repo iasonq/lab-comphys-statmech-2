@@ -1,0 +1,87 @@
+# This file was created Mon Mar 14 17:27:22 2022
+# Created by:
+#              :-) GROMACS - gmx rdf, 2016.3 (double precision) (-:
+# 
+# Executable:   /apps/applications/gromacs/2016.3/bin/gmx_d
+# Data prefix:  /apps/applications/gromacs/2016.3
+# Working dir:  /work2/pr005/xalexiou/Kinetoplast/water_NaCl_0.5M/4_prod
+# Command line:
+#   gmx_d rdf -f traj.xtc -s topol.tpr -n index.ndx -o g_interNa_Cl_.xvg -tu ns -bin 0.02
+# gmx rdf is part of G R O M A C S:
+#
+# Grunge ROck MAChoS
+#
+@    title "Radial distribution"
+@    xaxis  label "r (nm)"
+@    yaxis  label "g(r)"
+@TYPE xy
+@ subtitle "reference NA"
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "CL"
+      0.000    0.000
+      0.020    0.000
+      0.040    0.000
+      0.060    0.000
+      0.080    0.000
+      0.100    0.000
+      0.120    0.000
+      0.140    0.000
+      0.160    0.000
+      0.180    0.000
+      0.200    0.000
+      0.220    0.000
+      0.240    0.000
+      0.260    0.107
+      0.280    4.364
+      0.300    4.310
+      0.320    1.341
+      0.340    0.438
+      0.360    0.167
+      0.380    0.300
+      0.400    0.331
+      0.420    0.560
+      0.440    1.133
+      0.460    1.731
+      0.480    2.019
+      0.500    2.362
+      0.520    2.870
+      0.540    2.107
+      0.560    1.491
+      0.580    1.110
+      0.600    1.024
+      0.620    1.028
+      0.640    1.036
+      0.660    1.300
+      0.680    1.381
+      0.700    1.333
+      0.720    1.311
+      0.740    1.364
+      0.760    1.102
+      0.780    1.224
+      0.800    0.983
+      0.820    0.914
+      0.840    0.926
+      0.860    1.118
+      0.880    1.120
+      0.900    1.035
+      0.920    1.056
+      0.940    1.045
+      0.960    1.072
+      0.980    0.941
+      1.000    1.005
+      1.020    0.941
+      1.040    0.958
+      1.060    0.997
+      1.080    0.899
+      1.100    0.976
+      1.120    0.932
+      1.140    0.987
+      1.160    1.014
+      1.180    1.000
+      1.200    0.905
+      1.220    0.910
