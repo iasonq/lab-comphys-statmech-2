@@ -1,0 +1,47 @@
+> gmx grompp -f 01.MD.mdp -p topol.top -c start.gro
+                       :-) GROMACS - gmx grompp, 2022 (-:
+
+Executable:   /usr/local/gromacs/bin/gmx
+Data prefix:  /usr/local/gromacs
+Working dir:  /home/pyr/Documents/Uni/Master/Semester 2/Comphys Lab/Gromacs/Test_0
+Command line:
+  gmx grompp -f 01.MD.mdp -p topol.top -c start.gro
+
+Ignoring obsolete mdp entry 'ns_type'
+
+WARNING 1 [file 01.MD.mdp, line 37]:
+  Unknown left-hand ',cutoff-scheme' in parameter file
+
+
+
+ERROR 1 [file 01.MD.mdp]:
+  With Verlet lists only cut-off and PME LJ interactions are supported
+
+
+NOTE 1 [file 01.MD.mdp]:
+  With Verlet lists the optimal nstlist is >= 10, with GPUs >= 20. Note
+  that with the Verlet scheme, nstlist has no effect on the accuracy of
+  your simulation.
+
+Setting the LD random seed to -11670531
+
+Generated 3 of the 3 non-bonded parameter combinations
+
+Excluding 1 bonded neighbours molecule type 'Na'
+
+Excluding 1 bonded neighbours molecule type 'Cl'
+
+WARNING: Bad box in file start.gro
+
+Generated a cubic box    0.000 x    0.000 x    0.000
+
+-------------------------------------------------------
+Program:     gmx grompp, version 2022
+Source file: src/gromacs/gmxpreprocess/grompp.cpp (line 703)
+
+Fatal error:
+number of coordinates in coordinate file (start.gro, 1)
+             does not match topology (topol.top, 40)
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors

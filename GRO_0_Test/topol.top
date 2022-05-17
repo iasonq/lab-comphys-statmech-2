@@ -1,0 +1,38 @@
+
+[ defaults ]
+; nbfunc	comb-rule	gen-pairs	fudgeLJ	fudgeQQ
+   1		1		no		1.0	1.0
+[ atomtypes ]
+;!!!THIS ATOMTYPES DEFINITION ARE ARBITRARY AND STATED HERE TO COMPLY GROMACS REQUIREMENTS
+; THEY WILL BE OVERDEFINED BY ATOMS SECTION BELOW!!!
+;name  at.num      mass        charge   ptype       c6           c12
+Na      1   1.0000  0.000 A  1.00  0.000
+Cl      1   1.0000  0.000 A  1.00  0.000
+[ moleculetype ]
+; molname	nrexcl
+Na 1
+[ atoms ] 
+;   nr   type  resnr residue  atom   cgnr     charge       mass
+     1 Na          1 Na     Na        1   1.0000  22.9898
+[ bonds ]
+ ; i	j	funct	table(bond type) k
+[ angles ]
+ ; i	j   k	funct	table(bond type) k
+[ exclusions ]
+[ moleculetype ]
+; molname	nrexcl
+Cl 1
+[ atoms ] 
+;   nr   type  resnr residue  atom   cgnr     charge       mass
+     1 Cl          1 Cl     Cl        1  -1.0000  35.4530
+[ bonds ]
+ ; i	j	funct	table(bond type) k
+[ angles ]
+ ; i	j   k	funct	table(bond type) k
+[ exclusions ]
+[ system ]
+!!! WRITE HERE THE NAME OF YOUR SYSTEM !!!
+[ molecules ]
+; !!! PLEASE CHECK THE NUMBER OF MOLECULES !!!
+Na 20
+Cl 20
