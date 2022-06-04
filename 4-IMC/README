@@ -1,0 +1,29 @@
+Inverse MC: reconstruction of effective ion-ion potentials from RDFs
+
+Input files:
+
+NaCl_1M.rdf  :   file with RDFs (copyed from ../3-RDF)
+Na+_SD.CG.mcm
+Cl-_SD.CG.mcm  :  molecular description files for IMC / IBI procedure
+	          (copyed from ../3-RDF)
+
+Magic_NaCl.inp1 : main input file for the first series of iterations
+Magic_NaCl.inp2 : main input file for the second series of iterations
+
+Output files:
+
+NaCl_IMC.out1		    : main lof file of MagiC execution during
+                              the first series of iteration
+NaCl.01.p001 - NaCl.01.p008 : Log files from each execution core during
+                              the first series of iterations
+NaCl.01.i001.pot - NaCl.01.i010.pot  : Files with computed potentials after
+                              each iteration of the first series
+
+NaCl_IMC.out2		    : main lof file of MagiC execution during
+                              the first series of iteration
+NaCl.02.p001 - NaCl.02.p008 : Log files from each execution core during
+                              the first series of iterations
+NaCl.02.i001.pot - NaCl.02.i010.pot  : Files with computed potentials after
+                              each iteration of the first series
+
+File NaCl.02.i010.pot contains resulting potential of the IMC procedure

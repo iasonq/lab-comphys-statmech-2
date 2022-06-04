@@ -1,0 +1,2 @@
+input rdf: the g_0, I calculated not the g_atomistic
+used: IMC
