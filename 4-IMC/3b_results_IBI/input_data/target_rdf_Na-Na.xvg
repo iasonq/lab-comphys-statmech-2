@@ -1,0 +1,87 @@
+# This file was created Mon Mar 14 20:52:56 2022
+# Created by:
+#              :-) GROMACS - gmx rdf, 2016.3 (double precision) (-:
+# 
+# Executable:   /apps/applications/gromacs/2016.3/bin/gmx_d
+# Data prefix:  /apps/applications/gromacs/2016.3
+# Working dir:  /work2/pr005/xalexiou/Kinetoplast/water_NaCl_0.5M/4_prod
+# Command line:
+#   gmx_d rdf -f traj.xtc -s topol.tpr -n index.ndx -o g_interNa_Na_.xvg -tu ns -bin 0.02
+# gmx rdf is part of G R O M A C S:
+#
+# Great Red Oystrich Makes All Chemists Sane
+#
+@    title "Radial distribution"
+@    xaxis  label "r (nm)"
+@    yaxis  label "g(r)"
+@TYPE xy
+@ subtitle "reference NA"
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "NA"
+      0.000    0.000
+      0.020    0.000
+      0.040    0.000
+      0.060    0.000
+      0.080    0.000
+      0.100    0.000
+      0.120    0.000
+      0.140    0.000
+      0.160    0.000
+      0.180    0.000
+      0.200    0.000
+      0.220    0.000
+      0.240    0.000
+      0.260    0.000
+      0.280    0.000
+      0.300    0.000
+      0.320    0.141
+      0.340    0.167
+      0.360    0.446
+      0.380    0.668
+      0.400    0.512
+      0.420    0.464
+      0.440    0.324
+      0.460    0.364
+      0.480    0.293
+      0.500    0.174
+      0.520    0.321
+      0.540    0.479
+      0.560    0.400
+      0.580    0.630
+      0.600    0.562
+      0.620    0.690
+      0.640    0.659
+      0.660    0.664
+      0.680    0.573
+      0.700    0.472
+      0.720    0.623
+      0.740    0.519
+      0.760    0.526
+      0.780    0.673
+      0.800    0.768
+      0.820    0.609
+      0.840    0.710
+      0.860    0.808
+      0.880    0.834
+      0.900    0.780
+      0.920    0.769
+      0.940    0.764
+      0.960    0.785
+      0.980    0.823
+      1.000    0.757
+      1.020    0.797
+      1.040    0.793
+      1.060    0.862
+      1.080    0.868
+      1.100    0.940
+      1.120    0.938
+      1.140    0.846
+      1.160    0.931
+      1.180    0.820
+      1.200    0.924
+      1.220    0.930
