@@ -1,0 +1,29 @@
+##########
+\cite{hug}
+
+##########
+\begin{thebibliography}{9}
+
+\bibitem{nagel} 
+Nagel Clemens.
+\textit{Einführung in experimentelles Arbeiten}.
+%Universität Wien, 2017.
+ 
+%\bibitem{wiki} 
+%Wikipedia: Stahl,
+%\\\texttt{https://de.wikipedia.org/wiki/Stahl#Eigenschaften}
+%Zugegriffen: 25.05.2019.
+
+\bibitem{hug} 
+Hug: Metall Tabellen, \\
+\url{https://www.hug-technik.com/inhalt/ta/metall.htm} \\
+Zugegriffen: 25.05.2019.
+
+\end{thebibliography}
+
+##########
+\label{ohm}
+\eqref{ohm}
+
+##########
+\underbrace{T^2}_{\text{}{Funktionswert}}
